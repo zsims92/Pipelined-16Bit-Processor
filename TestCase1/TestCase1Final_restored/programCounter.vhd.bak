@@ -1,0 +1,28 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY programCounter IS
+	PORT(
+			stall,memMFC,irMFC,clock,reset				:IN STD_LOGIC;
+			address			:IN STD_LOGIC_VECTOR(9 downto 0);
+			output			:OUT INTEGER RANGE 0 TO 32768
+		);
+END programCounter;
+
+ARCHITECTURE behavior OF programCounter IS
+	SIGNAL VARIABLE  cycles				:INTEGER RANGE 0 TO 32768;
+BEGIN
+	output <= cycles;
+	PROCESS(clock, reset, stall, memMFC, irMFC)
+	BEGIN
+		IF(reset =  '1') THEN
+			cycles := 0;
+		ELSIF(rising_edge(clock)) THEN
+			IF(stall /= '1' AND memMFC = '1' and irMFC = '1')THEN
+				cycles := cycles + 1;
+			END IF;
+		END IF;
+	END PROCESS;
+END behavior;

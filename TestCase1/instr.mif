@@ -1,0 +1,89 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=1024;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0     :   C20006;
+	1     :   C30006;
+	2     :   C40002;
+	3     :   C50202;
+	4     :   600001;
+	5     :   60000C;
+	6     :   600006;
+	7     :   600007;
+	8     :   600008;
+	9     :   60000D;
+	10    :   60000E;
+	11    :   008062;
+	12    :   82001C;
+	13    :   008073;
+	14    :   820017;
+	15    :   002146;
+	16    :   002C57;
+	17    :   600008;
+	18    :   400019;
+	19    :   4000CA;
+	20    :   00809A;
+	21    :   83000E;
+	22    :   600188;
+	23    :   002B68;
+	24    :   0080B2;
+	25    :   8C000A;
+	26    :   002B78;
+	27    :   0080B3;
+	28    :   8C0007;
+	29    :   600111;
+	30    :   6001CC;
+	31    :   00808E;
+	32    :   8FFFF1;
+	33    :   002E08;
+	34    :   002D06;
+	35    :   80FFEE;
+	36    :   600177;
+	37    :   80FFE7;
+	38    :   600166;
+	39    :   002700;
+	40    :   80FFE2;
+	41    :   C21000;
+	42    :   50002D;
+	43    :   C32000;
+	44    :   50003E;
+	45    :   C1D000;
+	46    :   C90100;
+	47    :   CA0100;
+	48    :   6000E2;
+	49    :   6002D3;
+	50    :   600104;
+	51    :   400035;
+	52    :   600133;
+	53    :   500015;
+	54    :   008042;
+	55    :   820007;
+	56    :   400035;
+	57    :   004659;
+	58    :   500016;
+	59    :   600133;
+	60    :   600144;
+	61    :   00299A;
+	62    :   80FFF7;
+	63    :   80FFFF;
+	[64..1023]  :   000000;
+END;

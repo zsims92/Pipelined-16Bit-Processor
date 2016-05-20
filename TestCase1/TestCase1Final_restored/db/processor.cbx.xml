@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="processor">
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX16bit:MUX_Y|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_p4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX4_1:MUX_C|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_63e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MuxINC:inst62|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MuxPC:inst61|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|const16bit:inst52|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_9k6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|dataCache:inst82|tempMainMemory:loadData|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_25d1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|10_ALU_with_overflow:ALU|Shift:inst1|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_0kc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|230_Lab9:REGISTER|LPM_MUX_Lab9:S|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_e6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|230_Lab9:REGISTER|const16bit:inst1|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_9k6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|Adder:inst58|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|const15:inst17|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_sf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|10_ALU_with_overflow:ALU|aluMUx:inst2|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_u4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|230_Lab9:REGISTER|LPM_DECODE_Lab9:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_c8f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|230_Lab9:REGISTER|LPM_MUX_Lab9:T|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_e6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX2_1:inst2|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|instructionCache:inst54|instrMem:loadData|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_sr71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|10_ALU_with_overflow:ALU|MUX2_1:inst7|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|Adder:inst56|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|Adder:inst74|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|Const:inst57|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_ak6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|IO_MemoryInterface:inst1|LPM_DECODE_Lab9:inst11|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_c8f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|zero_1bit:inst8|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX16bit:inst44|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_p4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX16bit:inst45|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_p4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|MUX2_1:MUX_B|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processor|IO_MemoryInterface:inst1|MUX2_1:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_m4e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

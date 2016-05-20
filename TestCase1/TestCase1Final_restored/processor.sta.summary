@@ -1,0 +1,109 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock'
+Slack : -21.407
+TNS   : -17662.911
+
+Type  : Slow Model Setup 'reset'
+Slack : -17.005
+TNS   : -242.497
+
+Type  : Slow Model Setup 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : -2.631
+TNS   : -115.368
+
+Type  : Slow Model Hold 'clock'
+Slack : -15.301
+TNS   : -406.810
+
+Type  : Slow Model Hold 'reset'
+Slack : -1.140
+TNS   : -3.846
+
+Type  : Slow Model Hold 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'clock'
+Slack : -4.130
+TNS   : -1470.903
+
+Type  : Slow Model Recovery 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : -0.198
+TNS   : -14.106
+
+Type  : Slow Model Removal 'clock'
+Slack : -2.190
+TNS   : -121.183
+
+Type  : Slow Model Removal 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -3622.140
+
+Type  : Slow Model Minimum Pulse Width 'reset'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : -0.500
+TNS   : -95.000
+
+Type  : Fast Model Setup 'clock'
+Slack : -8.840
+TNS   : -7725.371
+
+Type  : Fast Model Setup 'reset'
+Slack : -7.085
+TNS   : -100.943
+
+Type  : Fast Model Setup 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : -0.637
+TNS   : -10.027
+
+Type  : Fast Model Hold 'clock'
+Slack : -6.924
+TNS   : -184.219
+
+Type  : Fast Model Hold 'reset'
+Slack : -0.357
+TNS   : -0.685
+
+Type  : Fast Model Hold 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'clock'
+Slack : -1.515
+TNS   : -204.307
+
+Type  : Fast Model Recovery 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Fast Model Removal 'clock'
+Slack : -1.298
+TNS   : -56.307
+
+Type  : Fast Model Removal 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : 0.021
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -3622.140
+
+Type  : Fast Model Minimum Pulse Width 'reset'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast Model Minimum Pulse Width 'IO_MemoryInterface:inst1|DE2_CLOCK:inst6|CLK_400HZ'
+Slack : -0.500
+TNS   : -95.000
+
+------------------------------------------------------------

@@ -1,0 +1,124 @@
+Quartus II Archive log --	G:/Project430/TestCase4fullCache_restored/TestCase1Final.qarlog
+
+Archive:	G:/Project430/TestCase4fullCache_restored/TestCase1Final.qar
+Date:		Wed Apr 22 00:36:44 2015
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+G:/Project430/TestCase4fullCache_restored/10Lab_16_1_or.bdf
+G:/Project430/TestCase4fullCache_restored/10Prelab_ab.bdf
+G:/Project430/TestCase4fullCache_restored/10_16BitFullAdder_With_Overflow.bdf
+G:/Project430/TestCase4fullCache_restored/10_ALU_with_overflow.bdf
+G:/Project430/TestCase4fullCache_restored/230_Lab9.bdf
+G:/Project430/TestCase4fullCache_restored/AND16.bsf
+G:/Project430/TestCase4fullCache_restored/AND16.vhd
+G:/Project430/TestCase4fullCache_restored/Adder.vhd
+G:/Project430/TestCase4fullCache_restored/BranchCounter.vhd
+G:/Project430/TestCase4fullCache_restored/Clock6Hz.vhd
+G:/Project430/TestCase4fullCache_restored/Const.vhd
+G:/Project430/TestCase4fullCache_restored/ConstZero.bsf
+G:/Project430/TestCase4fullCache_restored/ConstZero.vhd
+G:/Project430/TestCase4fullCache_restored/ForwardingUnit.bsf
+G:/Project430/TestCase4fullCache_restored/ForwardingUnit.vhd
+G:/Project430/TestCase4fullCache_restored/HazardDetectionUnit.bsf
+G:/Project430/TestCase4fullCache_restored/HazardDetectionUnit.vhd
+G:/Project430/TestCase4fullCache_restored/IO_MemoryInterface.bdf
+G:/Project430/TestCase4fullCache_restored/InstrBranch.mif
+G:/Project430/TestCase4fullCache_restored/InstructionAddressGenerator.bdf
+G:/Project430/TestCase4fullCache_restored/LPM_DECODE_Lab9.bsf
+G:/Project430/TestCase4fullCache_restored/LPM_DECODE_Lab9.vhd
+G:/Project430/TestCase4fullCache_restored/LPM_FF_Lab9.bsf
+G:/Project430/TestCase4fullCache_restored/LPM_FF_Lab9.vhd
+G:/Project430/TestCase4fullCache_restored/LPM_MUX_Lab9.bsf
+G:/Project430/TestCase4fullCache_restored/LPM_MUX_Lab9.vhd
+G:/Project430/TestCase4fullCache_restored/MUX16bit.bsf
+G:/Project430/TestCase4fullCache_restored/MUX16bit.vhd
+G:/Project430/TestCase4fullCache_restored/MUX1bit.vhd
+G:/Project430/TestCase4fullCache_restored/MUX2_1.bsf
+G:/Project430/TestCase4fullCache_restored/MUX2_1.vhd
+G:/Project430/TestCase4fullCache_restored/MUX4_1.bsf
+G:/Project430/TestCase4fullCache_restored/MUX4_1.vhd
+G:/Project430/TestCase4fullCache_restored/MainMemory.vhd
+G:/Project430/TestCase4fullCache_restored/MemoryInterface.bdf
+G:/Project430/TestCase4fullCache_restored/MuxINC.vhd
+G:/Project430/TestCase4fullCache_restored/MuxPC.vhd
+G:/Project430/TestCase4fullCache_restored/NOT16.bsf
+G:/Project430/TestCase4fullCache_restored/NOT16.vhd
+G:/Project430/TestCase4fullCache_restored/OR16.bsf
+G:/Project430/TestCase4fullCache_restored/OR16.vhd
+G:/Project430/TestCase4fullCache_restored/PC.vhd
+G:/Project430/TestCase4fullCache_restored/PC_Temp.vhd
+G:/Project430/TestCase4fullCache_restored/ProjectMaterials/Project Documents/de2_clock/DE2_CLOCK.bsf
+G:/Project430/TestCase4fullCache_restored/ProjectMaterials/Project Documents/de2_clock/DE2_CLOCK.vhd
+G:/Project430/TestCase4fullCache_restored/Reg3.vhd
+G:/Project430/TestCase4fullCache_restored/Reg_1.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_1.tdf
+G:/Project430/TestCase4fullCache_restored/Reg_16.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_16.vhd
+G:/Project430/TestCase4fullCache_restored/Reg_16e.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_16e.tdf
+G:/Project430/TestCase4fullCache_restored/Reg_1e.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_1e.vhd
+G:/Project430/TestCase4fullCache_restored/Reg_2.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_2.tdf
+G:/Project430/TestCase4fullCache_restored/Reg_24.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_24.vhd
+G:/Project430/TestCase4fullCache_restored/Reg_4bit.bsf
+G:/Project430/TestCase4fullCache_restored/Reg_4bit.vhd
+G:/Project430/TestCase4fullCache_restored/Shift.bsf
+G:/Project430/TestCase4fullCache_restored/Shift.qip
+G:/Project430/TestCase4fullCache_restored/Shift.vhd
+G:/Project430/TestCase4fullCache_restored/XOR16.bsf
+G:/Project430/TestCase4fullCache_restored/XOR16.vhd
+G:/Project430/TestCase4fullCache_restored/aluMUx.bsf
+G:/Project430/TestCase4fullCache_restored/aluMUx.qip
+G:/Project430/TestCase4fullCache_restored/aluMUx.vhd
+G:/Project430/TestCase4fullCache_restored/assignment_defaults.qdf
+G:/Project430/TestCase4fullCache_restored/const15.bsf
+G:/Project430/TestCase4fullCache_restored/const15.vhd
+G:/Project430/TestCase4fullCache_restored/const16bit.bsf
+G:/Project430/TestCase4fullCache_restored/const16bit.vhd
+G:/Project430/TestCase4fullCache_restored/control_unit_230.bsf
+G:/Project430/TestCase4fullCache_restored/control_unit_230.vhd
+G:/Project430/TestCase4fullCache_restored/dataCache.vhd
+G:/Project430/TestCase4fullCache_restored/db/processor.sim.cvwf
+G:/Project430/TestCase4fullCache_restored/decoder2to4.vhd
+G:/Project430/TestCase4fullCache_restored/fetch_memory.bdf
+G:/Project430/TestCase4fullCache_restored/immediate.vhd
+G:/Project430/TestCase4fullCache_restored/incremental_db/compiled_partitions/processor.db_info
+G:/Project430/TestCase4fullCache_restored/instr.mif
+G:/Project430/TestCase4fullCache_restored/instrDataBlockRegs.vhd
+G:/Project430/TestCase4fullCache_restored/instrDataSets.vhd
+G:/Project430/TestCase4fullCache_restored/instrMem.bsf
+G:/Project430/TestCase4fullCache_restored/instrMem.vhd
+G:/Project430/TestCase4fullCache_restored/instrTagBlocks.vhd
+G:/Project430/TestCase4fullCache_restored/instrTagSets.vhd
+G:/Project430/TestCase4fullCache_restored/instructionCache.vhd
+G:/Project430/TestCase4fullCache_restored/lpm_inv0.bsf
+G:/Project430/TestCase4fullCache_restored/lpm_inv0.vhd
+G:/Project430/TestCase4fullCache_restored/meminit.mif
+G:/Project430/TestCase4fullCache_restored/processor.bdf
+G:/Project430/TestCase4fullCache_restored/processor.pof
+G:/Project430/TestCase4fullCache_restored/processor.qpf
+G:/Project430/TestCase4fullCache_restored/processor.qsf
+G:/Project430/TestCase4fullCache_restored/processor.sof
+G:/Project430/TestCase4fullCache_restored/processor.vwf
+G:/Project430/TestCase4fullCache_restored/processor_assignment_defaults.qdf
+G:/Project430/TestCase4fullCache_restored/reg_5.vhd
+G:/Project430/TestCase4fullCache_restored/reg_6.vhd
+G:/Project430/TestCase4fullCache_restored/setDataMux.vhd
+G:/Project430/TestCase4fullCache_restored/setTagMux.vhd
+G:/Project430/TestCase4fullCache_restored/tempMainMemory.vhd
+G:/Project430/TestCase4fullCache_restored/test.do
+G:/Project430/TestCase4fullCache_restored/zero_1bit.bsf
+G:/Project430/TestCase4fullCache_restored/zero_1bit.vhd
+	======= Total: 107 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Apr 24 20:08:10 2015
+Source archive file:	H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final.qar
+Archive was extracted into	H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/
+		 - successfully.

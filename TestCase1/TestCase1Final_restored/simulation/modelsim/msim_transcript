@@ -1,0 +1,264 @@
+# Reading H:/altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do processor_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying H:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied H:\altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {processor.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# 
+# do "H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/test.do"
+# vsim processor
+# vsim processor 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.processor(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# add wave reset
+# 
+# add wave -radix unsigned currPC
+# add wave IDmfc
+# add wave MEMMfc
+# add wave IDcacheHIT
+# add wave MEMCacheHit
+# add wave -radix dec IDcacheHitRatio
+# add wave -radix dec MEMcacheHitRatio
+# add wave -radix hex IDcacheOut
+# add wave -radix hex MEMCacheOut
+# 
+# 
+# add wave -radix hex IFinstr
+# add wave -radix hex IDinstr
+# add wave -radix hex EXinstru
+# add wave -radix hex MEMinstr
+# add wave -radix hex WBinstr
+# 
+# add wave redLEDS
+# add wave greenData
+# 
+# add wave -radix dec register09
+# add wave -radix dec register10
+# 
+# 
+# force clock 0 0, 1 525 -repeat 1050
+# force reset 1 0
+# 
+# run 1500000
+ 0
+# ** Error: invalid command name "0"
+# Error in macro H:\Onedrive\UNL\Classes\SPRING2015\CSCE\430\FinalVersions\TestCase1\TestCase1Final_restored\test.do line 35
+# invalid command name "0"
+#     while executing
+# "0"
+
+do processor_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {processor.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# 
+# do "H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/test.do"
+# vsim processor
+# vsim processor 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.processor(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# add wave reset
+# 
+# add wave -radix unsigned currPC
+# add wave IDmfc
+# add wave MEMMfc
+# add wave IDcacheHIT
+# add wave MEMCacheHit
+# add wave -radix dec IDcacheHitRatio
+# add wave -radix dec MEMcacheHitRatio
+# add wave -radix hex IDcacheOut
+# add wave -radix hex MEMCacheOut
+# 
+# 
+# add wave -radix hex IFinstr
+# add wave -radix hex IDinstr
+# add wave -radix hex EXinstru
+# add wave -radix hex MEMinstr
+# add wave -radix hex WBinstr
+# 
+# add wave redLEDS
+# add wave greenData
+# add wave cycles
+# 
+# add wave -radix dec register09
+# add wave -radix dec register10
+# 
+# 
+# force clock 0 0, 1 525 -repeat 1050
+# force reset 1 0
+# 
+# run 1500000
+do processor_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# ** Warning: (vdel-133) Unable to remove directory "H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/simulation/modelsim/gate_work".
+# 
+# The directory is not empty.
+# 
+# . (GetLastError() = 145)
+# vlib gate_work
+# ** Error: (vlib-35) Failed to create directory "gate_work".
+# 
+# File exists. (errno = EEXIST)
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {processor.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity processor
+# -- Compiling architecture structure of processor
+# 
+# do "H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/test.do"
+# vsim processor
+# vsim processor 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.processor(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_ram_block(block_arch)
+# Loading cycloneii.cycloneii_ram_register(reg_arch)
+# Loading cycloneii.cycloneii_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# add wave reset
+# 
+# add wave -radix unsigned currPC
+# add wave IDmfc
+# add wave MEMMfc
+# add wave IDcacheHIT
+# add wave MEMCacheHit
+# add wave -radix dec IDcacheHitRatio
+# add wave -radix dec MEMcacheHitRatio
+# add wave -radix hex IDcacheOut
+# add wave -radix hex MEMCacheOut
+# 
+# 
+# add wave -radix hex IFinstr
+# add wave -radix hex IDinstr
+# add wave -radix hex EXinstru
+# add wave -radix hex MEMinstr
+# add wave -radix hex WBinstr
+# 
+# add wave redLEDS
+# add wave greenData
+# add wave cycles
+# 
+# add wave -radix dec register09
+# add wave -radix dec register10
+# 
+# 
+# force clock 0 0, 1 525 -repeat 1050
+# force reset 1 0
+# 
+# run 1500000

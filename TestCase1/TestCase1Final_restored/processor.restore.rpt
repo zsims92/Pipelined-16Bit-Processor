@@ -1,0 +1,180 @@
+Restore Archived Project report for processor
+Fri Apr 24 20:08:10 2015
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Fri Apr 24 20:08:10 2015 ;
+; Revision Name                   ; processor                             ;
+; Top-level Entity Name           ; processor                             ;
+; Family                          ; Cyclone II                            ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final.qar' into the 'H:/Onedrive/UNL/Classes/SPRING2015/CSCE/430/FinalVersions/TestCase1/TestCase1Final_restored/' directory
+Info: Generated report 'processor.restore.rpt'
+Info (23030): Evaluation of Tcl script h:/altera/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 283 megabytes
+    Info: Processing ended: Fri Apr 24 20:08:10 2015
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------------+
+; Files Restored                                             ;
++------------------------------------------------------------+
+; File Name                                                  ;
++------------------------------------------------------------+
+; 10Lab_16_1_or.bdf                                          ;
+; 10Prelab_ab.bdf                                            ;
+; 10_16BitFullAdder_With_Overflow.bdf                        ;
+; 10_ALU_with_overflow.bdf                                   ;
+; 230_Lab9.bdf                                               ;
+; AND16.bsf                                                  ;
+; AND16.vhd                                                  ;
+; Adder.vhd                                                  ;
+; BranchCounter.vhd                                          ;
+; Clock6Hz.vhd                                               ;
+; Const.vhd                                                  ;
+; ConstZero.bsf                                              ;
+; ConstZero.vhd                                              ;
+; ForwardingUnit.bsf                                         ;
+; ForwardingUnit.vhd                                         ;
+; HazardDetectionUnit.bsf                                    ;
+; HazardDetectionUnit.vhd                                    ;
+; IO_MemoryInterface.bdf                                     ;
+; InstrBranch.mif                                            ;
+; InstructionAddressGenerator.bdf                            ;
+; LPM_DECODE_Lab9.bsf                                        ;
+; LPM_DECODE_Lab9.vhd                                        ;
+; LPM_FF_Lab9.bsf                                            ;
+; LPM_FF_Lab9.vhd                                            ;
+; LPM_MUX_Lab9.bsf                                           ;
+; LPM_MUX_Lab9.vhd                                           ;
+; MUX16bit.bsf                                               ;
+; MUX16bit.vhd                                               ;
+; MUX1bit.vhd                                                ;
+; MUX2_1.bsf                                                 ;
+; MUX2_1.vhd                                                 ;
+; MUX4_1.bsf                                                 ;
+; MUX4_1.vhd                                                 ;
+; MainMemory.vhd                                             ;
+; MemoryInterface.bdf                                        ;
+; MuxINC.vhd                                                 ;
+; MuxPC.vhd                                                  ;
+; NOT16.bsf                                                  ;
+; NOT16.vhd                                                  ;
+; OR16.bsf                                                   ;
+; OR16.vhd                                                   ;
+; PC.vhd                                                     ;
+; PC_Temp.vhd                                                ;
+; ProjectMaterials/Project Documents/de2_clock/DE2_CLOCK.bsf ;
+; ProjectMaterials/Project Documents/de2_clock/DE2_CLOCK.vhd ;
+; Reg3.vhd                                                   ;
+; Reg_1.bsf                                                  ;
+; Reg_1.tdf                                                  ;
+; Reg_16.bsf                                                 ;
+; Reg_16.vhd                                                 ;
+; Reg_16e.bsf                                                ;
+; Reg_16e.tdf                                                ;
+; Reg_1e.bsf                                                 ;
+; Reg_1e.vhd                                                 ;
+; Reg_2.bsf                                                  ;
+; Reg_2.tdf                                                  ;
+; Reg_24.bsf                                                 ;
+; Reg_24.vhd                                                 ;
+; Reg_4bit.bsf                                               ;
+; Reg_4bit.vhd                                               ;
+; Shift.bsf                                                  ;
+; Shift.qip                                                  ;
+; Shift.vhd                                                  ;
+; XOR16.bsf                                                  ;
+; XOR16.vhd                                                  ;
+; aluMUx.bsf                                                 ;
+; aluMUx.qip                                                 ;
+; aluMUx.vhd                                                 ;
+; assignment_defaults.qdf                                    ;
+; const15.bsf                                                ;
+; const15.vhd                                                ;
+; const16bit.bsf                                             ;
+; const16bit.vhd                                             ;
+; control_unit_230.bsf                                       ;
+; control_unit_230.vhd                                       ;
+; dataCache.vhd                                              ;
+; db/processor.sim.cvwf                                      ;
+; decoder2to4.vhd                                            ;
+; fetch_memory.bdf                                           ;
+; immediate.vhd                                              ;
+; incremental_db/compiled_partitions/processor.db_info       ;
+; instr.mif                                                  ;
+; instrDataBlockRegs.vhd                                     ;
+; instrDataSets.vhd                                          ;
+; instrMem.bsf                                               ;
+; instrMem.vhd                                               ;
+; instrTagBlocks.vhd                                         ;
+; instrTagSets.vhd                                           ;
+; instructionCache.vhd                                       ;
+; lpm_inv0.bsf                                               ;
+; lpm_inv0.vhd                                               ;
+; meminit.mif                                                ;
+; processor.bdf                                              ;
+; processor.pof                                              ;
+; processor.qpf                                              ;
+; processor.qsf                                              ;
+; processor.sof                                              ;
+; processor.vwf                                              ;
+; processor_assignment_defaults.qdf                          ;
+; reg_5.vhd                                                  ;
+; reg_6.vhd                                                  ;
+; setDataMux.vhd                                             ;
+; setTagMux.vhd                                              ;
+; tempMainMemory.vhd                                         ;
+; test.do                                                    ;
+; zero_1bit.bsf                                              ;
+; zero_1bit.vhd                                              ;
++------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
